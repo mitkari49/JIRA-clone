@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif; /* Modern font family */
+  }
+  
+  .jira {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5px;
+    padding: 20px; /* Breathing room */
+    background-color: #f0f0f0; /* Soft gray background */
+    border-radius: 20px; /* Subtle border radius */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Soft box shadow */
+   
+  }
+  
+  .column {
+    width: 30%;
+    border: 1px solid #ddd; /* Light gray border */
+    margin-right: 5px;
+    min-height: 400px;
+    text-align: center;
+    background-color: #fff; /* White background for contrast */
+    border-radius: 15px; /* Subtle border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    margin: 12px;
+  }
+  
+  .card {
+    background-color: #333; /* Dark gray background */
+    color: azure; /* Soft blue-green text color */
+    border: 1px solid #ccc; /* Light gray border */
+    margin: 5px;
+    padding: 15px; /* Better readability */
+    border-radius: 15px; /* Subtle border radius */
+    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+  }
+  
+  .card:hover {
+    background-color: #444; /* Darker gray background on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Increased box shadow on hover */
+  }
+  
+  #addTask {
+    background-color: #26869a; /* Soft blue-green button color */
+    color: #fff; /* White button text color */
+    border: none; /* No border */
+    padding: 15px 30px; /* Better readability */
+    font-size: 18px; /* Better readability */
+    cursor: pointer; /* Pointer cursor */
+    border-radius: 20px; /* Subtle border radius */
+    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+  }
+  
+  #addTask:hover {
+    background-color: #037199; /* Lighter blue-green hover effect */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Increased box shadow on hover */
+  }
+
+  .column {
+    width: 30%;
+    border: 2px solid rgb(136, 136, 136);
+    margin-right: 5px;
+    min-height: 400px;
+    text-align: center;
+    background-color: rgba(255, 167, 104, 0.609);
+}
+
+/* Optional hover effect for better UX */
+.column.drag-over {
+    background-color: lightblue;
+}
+
+.card-container {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+  }
+  
+  /* Close button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #addCustomTask{
+    margin-left: 2px;
+    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+    border-radius: 10px;
+
+  }
+
+  #addCustomTask:hover{
+    color: #f0f0f0;
+    background-color: #333;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Increased box shadow on hover */
+    cursor: pointer; /* Pointer cursor */
+  }
+
+  #logo {
+    width: 80px; /* Width of the logo */
+    height: 100px; /* Height of the logo */
+    padding: 10px; /* Padding inside the logo */
+    background: linear-gradient(to bottom, #0052CC, #4C9AFF); /* Gradient from dark blue to light blue */
+    border-radius: 30%; /* Circular shape */
+    display: flex; /* Center content inside the logo */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: white; /* Text color, adjust as needed */
+    font-weight: bold; /* Optional: make text bold */
+    text-align: center; /* Center text alignment */
+    margin-right: 8px;
+}
+
+  
